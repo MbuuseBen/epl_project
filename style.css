@@ -1,0 +1,124 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+
+}
+
+table {
+   width:60%;
+   left: 20%;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+table th	{
+    background-color: rgb(51, 3, 47);
+    color: white;
+}
+
+table tr:hover {background-color: #a3f5ee}
+
+
+
+a{
+    text-align: center
+}
+
+div.broom{
+    width: 100%;
+}
+
+
+div.intro{
+    background-color: rgb(51, 3, 11);
+    height: 420px;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 40px;
+    
+}
+
+.intro-item{
+    width: auto;
+    height: auto;
+}
+
+#right{
+    text-align: right;
+}
+
+div.team-info{
+    background-color: rgb(51, 3, 11);
+    height: 200px;
+    width: 100%;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+div.searches{
+    background-color: rgb(51, 3, 47);
+    height: 100px;
+    width: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+div.slag{
+    text-align: center;
+    font-size: 25px;
+    width : 100%;
+}
+
+div.bottom{
+   text-align: center;
+}
+
+
+div.icon-headers{
+    background-color: rgb(145, 24, 70);
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+}
+div.footer-line{
+    background-color: rgb(51, 3, 47);
+    height: 10px;
+    width: 100%;
+}
+
+div.header-line{
+    background-color: rgb(145, 24, 70);
+    height: 10px;
+}
+
+div.header-line1{
+    background-color: rgb(145, 24, 70);
+    height: 5px;
+}
+
+div.header-line2{
+    background-color: rgb(15, 207, 79);
+    height: 5px;
+}
